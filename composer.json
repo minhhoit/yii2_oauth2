@@ -1,0 +1,26 @@
+{
+    "name": "minhhoit/oauth2",
+    "description": "The Oauth2 Server extension for the Yii2 framework",
+    "keywords": ["yii2", "oauth2", "extension"],
+    "homepage": "https://github.com/minhhoit/yii2_oauth2",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/minhhoit/yii2_oauth2/issues",
+        "source": "https://github.com/minhhoit/yii2_oauth2"
+    },
+    "authors": [
+        {
+            "name": "Andrew",
+            "email": "hoangminh.it4u@mail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "minhhoit\\oauth2\\": ""
+        }
+    }
+}
